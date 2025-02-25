@@ -1,0 +1,360 @@
+/* Standardfarbwerte */
+:root {
+    --primary: #840058;
+    --bs-primary-text-emphasis: var(--primary);
+    --bs-link-color: var(--primary);
+    --bs-link-hover-color: var(--primary);
+    --bs-btn-bg: var(--primary);
+}
+
+/* Farbe des primary Button ändern */
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    --bs-btn-hover-bg: var(--primary);
+    --bs-btn-hover-border-color: var(--primary);
+    --bs-btn-active-bg: #8d085c;
+    --bs-btn-active-border-color: var(--primary);
+}
+
+/* Farbe der Umrandung des primary Button ändern - schaut wie secondary aus */
+.btn-outline-primary {
+    --bs-btn-color: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    --bs-btn-hover-bg: var(--primary);
+    --bs-btn-hover-border-color: var(--primary);
+    --bs-btn-active-bg: #8d085c;
+    --bs-btn-active-border-color: #8d085c;
+}
+
+/* Farbe des secondary Button ändern */
+.list-details-actions {
+    --bs-btn-bg: white;
+    --bs-btn-border-color: var(--primary);
+    --bs-btn-color: var(--primary);
+    --bs-btn-hover-bg: var(--primary);
+    --bs-btn-hover-border-color: var(--primary);
+    --bs-btn-active-bg: #8d085c;
+    --bs-btn-active-border-color: var(--primary);
+}
+
+/* Farbe der disabled Buttons ändern */
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+}
+
+/* Schriftart festlegen */
+* {
+    font-family: "Sour Gummy", serif;
+}
+
+.list-fusion-container {
+    margin-top: 5%;
+}
+
+.tab-content {
+    min-height: 30vh;
+}
+
+.add-new-list-button {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.back {
+    margin-top: 3%;
+}
+
+.create-list {
+    margin-top: 3%;
+}
+
+.form-group {
+    margin-top: 2vh;
+}
+
+.me-2 {
+    margin-top: 2vh;
+}
+
+.category {
+    margin-bottom: 1.5vh;
+}
+
+.d-block {
+    margin-top: 2vh;
+}
+
+.list-card {
+    min-width: 280px;
+}
+
+.tab-pane {
+    padding: 2%;
+}
+
+#sharedListsClosed, #sharedLists {
+    margin-top: 4vh;
+}
+
+.list-container {
+    max-height: 25vh;
+    /* auf rechter Seite ist Scrollbar wenn nach unten hin größer als Container */
+    overflow-y: scroll;
+    padding-bottom: 3%;
+}
+
+.list-group-header {
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+#closed-lists-tab, #open-lists-tab {
+    font-size: 1.8vh;
+    margin-top: 5vh;
+}
+
+.list-header {
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.list-details {
+    font-size: 1.5vh;
+    margin-bottom: 0;
+}
+
+/* Symbol-Größe */
+.article-image {
+    font-size: 400%;
+}
+
+.article-name {
+    font-size: 1.7vh;
+    text-align: center;
+}
+
+.article-description {
+    text-align: center;
+    font-size: 1.3vh;
+}
+
+.article-body {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.article-card {
+    min-width: 152px;
+}
+
+/* Container mit Artikeln */
+#articles-container {
+    margin-bottom: 2vh;
+    max-height: 40vh;
+    overflow-y: auto;
+    padding-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.unit-label, .amount-label {
+    margin-bottom: 0;
+    align-content: center;
+}
+
+.amount-input {
+    margin-top: 2vh;
+}
+
+#articles-to-buy-container, #purchased-articles-container {
+    max-width: 33vw;
+    margin-bottom: 4vh;
+}
+
+.article-name-label-container {
+    width: 100%;
+}
+
+.article-name-label {
+    margin-bottom: 0;
+}
+
+#list-detail {
+    margin-bottom: 3vh;
+    flex-wrap: wrap;
+}
+
+.cut-detail-view {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.select-articles {
+    margin-top: 3vh;
+}
+
+.category-container {
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+/* Umrandung der Filter-Kategorien runder stellen */
+.category-button {
+    border-radius: 6px !important;
+}
+
+.action-btns {
+    margin-top: 3%;
+}
+
+/* Informationstext kursiv machen */
+.info-text {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#category-select {
+    margin-bottom: 2vh
+}
+
+#category-article-name-container, #edit-articles-to-category-container, #people-number-container, #list-name-container {
+    margin-bottom: 4vh;
+    margin-top: 1vh;
+}
+
+.action-label {
+    font-size: 2vh;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.edit-list-subheader {
+    margin-top: 2vh;
+}
+
+.article-checkbox-container {
+    min-width: 200px;
+}
+
+/* Animationen */
+/* Listen von unten nach oben einfaden lassen */
+.list-card {
+    /* Deckraft am Anfang auf 0, das es zunächst unsichtbar ist */
+    opacity: 0;
+    /* 0,75 s lange Animation, forwards damit Endzustand (opacity 1) erhalten bleibt */
+    animation: fade-in 0.75s ease-out forwards;
+    /* ease Kurve - Änderung 0.2 Sekunden lang (entweder bei transofrm der box-shadow) */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Mauszeiger wird zu einer Hand */
+    cursor: pointer;
+}
+
+/* Hover-Effekt mit Schatten */
+.list-card:hover {
+    /* wird um 5% vergrößert */
+    transform: scale(1.05);
+    /* Schatten nach unten 4px und 10px weichere Kanten, Farbe schwarz mit 20% Deckkraft
+     horizontal/vertikal/unschärfe/farbe */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* einzelne Artikel */
+.article-card {
+    /* ease Kurve - Änderung 0.2 Sekunden lang (entweder bei transofrm der box-shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Mauszeiger wird zu einer Hand */
+    cursor: pointer;
+}
+
+/* Hover-Effekt mit Schatten */
+.article-card:hover {
+    /* wird um 5% vergrößert */
+    transform: scale(1.05);
+    /* Schatten nach unten 4px und 10px weichere Kanten, Farbe schwarz mit 20% Deckkraft */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* fade in von unten nach oben - werden eingeblendet */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive auf verschiedene Größen */
+/* bis zu einer Größe von 768px */
+@media (max-width: 768px) {
+    .article {
+        row-gap: 1vh;
+    }
+
+    .action-btns {
+        flex-wrap: wrap;
+        row-gap: 2vh;
+    }
+
+    .article-card {
+        min-width: 120px;
+    }
+
+    .article-image {
+        font-size: 380%;
+    }
+}
+
+/* bis zu einer Größe von 577px */
+@media (max-width: 577px) {
+    .btn {
+        font-size: 1.5vh;
+    }
+
+    .action-label {
+        font-size: 1.6vh;
+    }
+
+    .article-card {
+        min-width: 100px;
+    }
+
+    .article-image {
+        font-size: 348%;
+    }
+
+    .article {
+        display: grid;
+        /* 2 Spalten so breit wie maximaler Content */
+        grid-template-columns: max-content max-content;
+    }
+}
+
+/* bis zu einer Größe von 1000px */
+@media (max-width: 1000px) {
+    .article {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        row-gap: 1vh;
+    }
+}
+
+
+
+
+
+
+
+

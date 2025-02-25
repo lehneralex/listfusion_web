@@ -1,0 +1,592 @@
+{
+  "lists": [
+    {
+      "id": 0,
+      "name": "Geburtstag Carina",
+      "people": 10,
+      "articlesToBuy": [
+        {
+          "name": "Tomate",
+          "amount": 3,
+          "unit": "Stk."
+        },
+        {
+          "name": "Milch",
+          "amount": 1,
+          "unit": "Liter"
+        },
+        {
+          "name": "Brot",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Pommes",
+          "amount": 2,
+          "unit": "Pkg."
+        }
+      ],
+      "purchasedArticles": [
+        {
+          "name": "Gurke",
+          "amount": 1,
+          "unit": "Stk."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": 1,
+      "name": "Kuchen Arbeit",
+      "people": "",
+      "articlesToBuy": [
+        {
+          "name": "Eier",
+          "amount": 1,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Milch",
+          "amount": 2,
+          "unit": "Liter"
+        },
+        {
+          "name": "Karotte",
+          "amount": 5,
+          "unit": "Stk."
+        },
+        {
+          "name": "Butter",
+          "amount": 1,
+          "unit": "Pkg."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": 2,
+      "name": "Sonntagsbrunch",
+      "people": 4,
+      "articlesToBuy": [
+        {
+          "name": "Milch",
+          "amount": 3,
+          "unit": "Liter"
+        },
+        {
+          "name": "Eier",
+          "amount": 1,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Tomate",
+          "amount": 2,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Avocado",
+          "amount": 3,
+          "unit": "Stk."
+        },
+        {
+          "name": "Baguette",
+          "amount": 1,
+          "unit": "Stk."
+        }
+      ],
+      "purchasedArticles": [
+        {
+          "name": "Waffel",
+          "amount": 2,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Brot",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Karotte",
+          "amount": 6,
+          "unit": "Stk."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": 3,
+      "name": "Krimi Dinner",
+      "people": 6,
+      "articlesToBuy": [
+        {
+          "name": "Milch",
+          "amount": 3,
+          "unit": "Liter"
+        },
+        {
+          "name": "Rotwein",
+          "amount": 2,
+          "unit": "Liter"
+        },
+        {
+          "name": "Eier",
+          "amount": 1,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Avocado",
+          "amount": 6,
+          "unit": "Stk."
+        },
+        {
+          "name": "Falafel",
+          "amount": 2,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Eis",
+          "amount": 2,
+          "unit": "Pkg."
+        }
+      ],
+      "purchasedArticles": [
+        {
+          "name": "Waffel",
+          "amount": 3,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Baguette",
+          "amount": 4,
+          "unit": "Stk."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": 4,
+      "name": "ONLY",
+      "people": "",
+      "articlesToBuy": [
+      ],
+      "purchasedArticles": [
+        {
+          "name": "Sneakers",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "Kleid",
+          "amount": 3,
+          "unit": "."
+        }
+      ],
+      "open": false
+    },
+    {
+      "id": 5,
+      "name": "Weihnachtsessen",
+      "people": 10,
+      "articlesToBuy": [
+        {
+          "name": "Milch",
+          "amount": 3,
+          "unit": "Liter"
+        },
+        {
+          "name": "Rotwein",
+          "amount": 2,
+          "unit": "Liter"
+        },
+        {
+          "name": "Eier",
+          "amount": 1,
+          "unit": "Pkg."
+        }
+      ],
+      "purchasedArticles": [
+        {
+          "name": "Speck",
+          "amount": 3,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Knoblauch",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Baguette",
+          "amount": 6,
+          "unit": "Stk."
+        },
+        {
+          "name": "Schokolade",
+          "amount": 2,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Popcorn",
+          "amount": 2,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Brokkoli",
+          "amount": 10,
+          "unit": "Stk."
+        }
+      ],
+      "open": false
+    },
+    {
+      "id": 6,
+      "name": "Party Samstag",
+      "people": 5,
+      "articlesToBuy": [
+        {
+          "name": "Pommes",
+          "amount": 3,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Baguette",
+          "amount": 5,
+          "unit": "Stk."
+        },
+        {
+          "name": "Cookies",
+          "amount": 2,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Popcorn",
+          "amount": 3,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Speck",
+          "amount": 2,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Eier",
+          "amount": 2,
+          "unit": "Pkg."
+        }
+      ],
+      "purchasedArticles": [
+        {
+          "name": "Brezel",
+          "amount": 3,
+          "unit": "Pkg."
+        },
+        {
+          "name": "Eis",
+          "amount": 2,
+          "unit": "Pkg."
+        }
+      ],
+      "open": true
+    }
+  ],
+  "articles": [
+    {
+      "id": 0,
+      "name": "Tomate",
+      "description": "einzeln",
+      "image": "&#127813",
+      "categories": [
+        "Gemüse"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Milch",
+      "description": "länger haltbar",
+      "image": "&#129371",
+      "categories": [
+        "Kühlregal",
+        "Milchprodukte"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gurke",
+      "description": "",
+      "image": "&#129362",
+      "categories": [
+        "Gemüse"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pommes",
+      "description": "tiefgekühlt",
+      "image": "&#127839",
+      "categories": [
+        "Tiefkühlung"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Käse",
+      "description": "",
+      "image": "&#129472",
+      "categories": [
+        "Milchprodukte",
+        "Kühlregal"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rotwein",
+      "description": "",
+      "image": "&#127863",
+      "categories": [
+        "Getränke"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Butter",
+      "description": "",
+      "image": "&#129480",
+      "categories": [
+        "Kühlregal"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Baguette",
+      "description": "",
+      "image": "&#129366",
+      "categories": [
+        "Brot & Gebäck"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Speck",
+      "description": "",
+      "image": "&#129363",
+      "categories": [
+        "Fleisch & Wurst"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Eier",
+      "description": "Klasse M",
+      "image": "&#129370",
+      "categories": [
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Kartoffel",
+      "description": "",
+      "image": "&#129364",
+      "categories": [
+        "Vorratsschrank"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Zwiebel",
+      "description": "rot",
+      "image": "&#129477",
+      "categories": [
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Avocado",
+      "description": "fest",
+      "image": "&#129361",
+      "categories": [
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Cookies",
+      "description": "",
+      "image": "&#127850",
+      "categories": [
+        "Süsswaren & Knabbereien"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Schokolade",
+      "description": "weiße",
+      "image": "&#127851",
+      "categories": [
+        "Süsswaren & Knabbereien"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Karotte",
+      "description": "",
+      "image": "&#129365",
+      "categories": [
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Hühnerkeule",
+      "description": "",
+      "image": "&#127831",
+      "categories": [
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Falafel",
+      "description": "",
+      "image": "&#129478",
+      "categories": [
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Popcorn",
+      "description": "mit Butter",
+      "image": "&#127871",
+      "categories": [
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Brot",
+      "description": "",
+      "image": "&#127838",
+      "categories": [
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Eis",
+      "description": "",
+      "image": "&#127848",
+      "categories": [
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Brezel",
+      "description": "",
+      "image": "&#129384",
+      "categories": [
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Waffel",
+      "description": "",
+      "image": "&#129479",
+      "categories": [
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Brokkoli",
+      "description": "",
+      "image": "&#129382",
+      "categories": [
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Knoblauch",
+      "description": "",
+      "image": "&#129476",
+      "categories": [
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Sneakers",
+      "description": "",
+      "image": "&#128095",
+      "categories": [
+        "Bekleidung"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Kleid",
+      "description": "",
+      "image": "&#128087",
+      "categories": [
+        "Bekleidung"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Gemüse"
+    },
+    {
+      "name": "Kühlregal"
+    },
+    {
+      "name": "Obst"
+    },
+    {
+      "name": "Milchprodukte"
+    },
+    {
+      "name": "Fleisch & Wurst"
+    },
+    {
+      "name": "Fisch"
+    },
+    {
+      "name": "Brot & Gebäck"
+    },
+    {
+      "name": "Veggi & Vegan"
+    },
+    {
+      "name": "Getränke"
+    },
+    {
+      "name": "Vorratsschrank"
+    },
+    {
+      "name": "Süsswaren & Knabbereien"
+    },
+    {
+      "name": "Tiefkühlung"
+    },
+    {
+      "name": "Baby"
+    },
+    {
+      "name": "Tiere"
+    },
+    {
+      "name": "Drogerieprodukte"
+    },
+    {
+      "name": "Haushalt"
+    },
+    {
+      "name": "Elektronik"
+    },
+    {
+      "name": "Bekleidung"
+    }
+  ]
+}
