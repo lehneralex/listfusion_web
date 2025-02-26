@@ -23,7 +23,7 @@ class FusionController {
         this.editCategoryArticleView = new EditCategoryArticleView();
         this.editListView = new EditListView();
 
-        // model wird benachrichtigt, dass unter dem jeweiligen "topic" eine/welche Methode auszuführen ist
+        // Model wird benachrichtigt, dass unter dem jeweiligen "topic" eine/welche Methode auszuführen ist
         model.subscribe("initLists", this.listView, this.listView.init);
         model.subscribe("initCreateList", this.createListView, this.createListView.init);
         model.subscribe("createNewList", this.listDetailView, this.listDetailView.init);
