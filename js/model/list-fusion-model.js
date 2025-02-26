@@ -207,8 +207,10 @@ export class ListFusionModel extends Subject {
         this.categories.push(category);
         // Kategorie wird zu ausgewählten Artikel hinzugefügt
         for (let article of addedArticles) {
+           let article =  this.articles.find(article => article.id == articleId);
             article.categories.push(category.name);
         }
+
         // zeige Confirmation Page an mit Typ Kategorie
         this.notify("renderConfirmationPage", "Kategorie");
     }
