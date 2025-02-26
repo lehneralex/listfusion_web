@@ -206,7 +206,7 @@ export class ListFusionModel extends Subject {
         let category = new Category(name);
         this.categories.push(category);
         // Kategorie wird zu ausgewählten Artikel hinzugefügt
-        for (let article of addedArticles) {
+        for (let articleId of addedArticles) {
            let article =  this.articles.find(article => article.id == articleId);
             article.categories.push(category.name);
         }
