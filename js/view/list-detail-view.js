@@ -37,8 +37,10 @@ export class ListDetailView {
         
         <h3 class=select-articles>Ich brauche ...</h3>
         <div id="articles">
-            <div id="articles-container" class="row row-cols-5 gap-3"></div>
-            <div class="row row-cols-2 article">
+            
+            <div id="articles-container" class= "row row-cols-6 gap-3"></div>
+            
+            <div class="row row-cols-4 article">
                     <div class="col-auto">
                         <button type="button" class="btn btn-secondary list-details-actions" ${disabled} id="edit-article-btn">Artikel bearbeiten ></button>
                     </div>
