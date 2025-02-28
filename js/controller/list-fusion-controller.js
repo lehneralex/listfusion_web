@@ -161,13 +161,14 @@ class FusionController {
                 fusionController.initListDetailPage();
             }
         }
-        // "zurück" zur Listenübersicht und Eventlistener hinzufügen
+        // "zurück zur Listenübersicht" und Eventlistener hinzufügen
         document.querySelector("#back-to-homepage").onclick = function () {
             // Listenübersicht wird geladen wenn ich auf Button geklickt habe
             model.initLists();
             // Methode aufrufen um Eventlistener zur Übersichtsseite hinzuzufügen
             fusionController.initListOverviewPage();
         }
+
         // alle Kategorien holen
         let categoryButton = document.querySelectorAll(".category-button");
         // Kateogrien durchgehen
